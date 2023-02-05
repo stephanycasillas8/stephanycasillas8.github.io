@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!--A declaration to the browser that this is an HTML document type which will tell it how to process our code-->
+
+<html lang="en">
+
+
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="styleSheet" href ="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@600&display=swap" rel="stylesheet">
+        
+        <!--Metadata for the page-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--Title of webpage in the browser-->
+        <title>Stephany Casillas' Portfolio</title>
+        
+    </head>
+
+    <body>
+        <section class = "Title">
+            <img class = "Name" alt="Name" src="Name.png">
+
+            <div class = "navBar"> 
+                <button class = "HomeButton">
+                    <a id="size" href = "#bio_section">________</a>
+                </button>
+                <button class = "Projects">
+                 <a id="size" href = "#projects_section">________</a>
+                </button>
+                <button class = "Resume">
+                    <img onclick="myfunction()" id="idk" src="Resume.png">
+ 
+                </button>
+                <button class = "Contact">
+                    <img onclick="myfunction()" id="idk" src="Contact.png">
+                </button>
+
+            </div>
+        </section>
+        <section class = "BioSection">
+            <a id = "bio_section"></a>
+            <h1>About Me</h1>
+            <div class = "AboutMe">
+                <div class ="Bio">
+                    <p>Undergraduate Student @ UC Berkeley</p>
+                    <h2>Double Major</h2>
+                    <p> Data Science with a Domain Emphasis on Human Behavior & Psychology</p>
+                    <p>Media Studies with a Concentration in Digital Studies</p>
+                </div>
+            <img class = "Me" alt="Me" src="HeadShot.png">
+
+            </div>
+     </section>
+     <section class = "ProjectsSection">
+        <a id = "projects_section"></a>
+        <h1>Projects</h1>
+        <div class ="Adobe">
+            <h2> Adobe Illustrator/Photoshop</h2>
+        </div>
+        <div class = "Project">
+        
+        <img class = "Design" alt="Design" src="design/Design_Portfolio/3D.png"> 
+        <img class = "Design" alt="Design" src="design/Design_Portfolio/CasillasStephany_Pink_Room.png"> 
+        <img class = "Design" alt="Design" src="design/Design_Portfolio/CasillasStephany Sushi.png"> 
+        <img class = "Design" alt="Design" src="design/Design_Portfolio/CasillasStephany_Avenger Poster.png"> 
+        <img class = "Design" alt="Design" src="design/Design_Portfolio/CasillasStephany_Blue Room.png"> 
+        <img class = "Design" alt="Design" src="design/Design_Portfolio/CasillasStephany_Pizza.png"> 
+        <img class = "Design" alt="Design" src="design/Design_Portfolio/CasillasStephany_Shrek Poster.png"> 
+        <img class = "Design" alt="Design" src="design/Design_Portfolio/CasillasStephany_Taco.png"> 
+        <img class = "Design" alt="Design" src="design/Design_Portfolio/Casillas_Stephany_Little_Women_Poster.png"> 
+
+        </div>
+        <section>
+            <div class = "Adobe">
+                <h2>HTML/CSS/JS</h2>
+            </div>
+
+        <div class = "Project">
+          
+            <button class = "Movie">
+                <a href = "https://stephanycasillas10.github.io/MovieCheck/" target="_blank"> Movie Check </a>
+            </button>
+            <button class = "Jeopardy">
+                <a href = "https://lb7kh.csb.app/" target="_blank"> Jeopardy </a>
+
+            </button>
+            <button class="SAT">
+                <a href = "https://inspire-sat.glitch.me/" target="_blank"> SAT</a>
+            </button>
+            
+            <button class="Zodiac">
+                <a href = "https://stephanycasillas10.github.io/Create-Task/" target="_blank"> Zodiac Page </a>
+            </button>
+           
+
+        </div>
+        </section>
+        
+
+        
+     </section>
+    
+     <section class = "Footer">
+        <div class = "Links">
+            <a href = "https://www.linkedin.com/in/stephanycasillas/" target = "_blank">LinkedIn</a>
+            <img onclick="dog()" class = "Dog" src="Dog.png">
+            <a href = "https://github.com/stephanycasillas10" target = "_blank">Github</a>
+
+        </div>
+     </section>
+        
+    <script>
+        const Me = document.querySelector("#Me");
+        function myfunction() {
+            alert("Coming Soon! This website is still a work in progress <3");
+        }
+        function dog() {
+            alert("You found my dog Stewie! Fun fact: He is a Bichon Frise :)");
+        }
+        
+
+    </script>
+
+    </body>
+
+
+</html>

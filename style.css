@@ -1,0 +1,184 @@
+p {
+    color:black;
+}
+#idk{
+    width:100px;
+    opacity:0%;
+}
+.space {
+    color:grey;
+}
+.Movie, .Zodiac, .Jeopardy, .SAT {
+    font-family: 'Catamaran', sans-serif;
+    width: 200px;
+    font-size: 20px;
+    
+}
+a:visited {
+    color: black;
+
+}
+a:link{
+    color: black;
+
+}
+
+#size{
+    font-size:30px;
+    opacity:0%;
+}
+.Me {
+    height: 450px;
+    border-radius: 4px;
+    border-top: 20px solid #e5e5e5;
+    box-shadow: 12px 12px 1px #b0cfa5;
+    overflow-y: hidden;
+    margin: 40px;
+    margin-top: 20px;
+}
+.Design {
+    width: 150px;
+
+}
+.Name {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+.navBar {
+    display: block;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.Name {
+    transition-duration: 0.4s;
+}
+.Name:hover {
+    background-image:url(Name2.png);
+}
+
+.HomeButton {
+    background-image:url(Home.png);
+    background-size: 130px;
+    width: 130px;
+    height: 50px;
+    border: 2px white solid;
+    transition-duration: 0.4s;
+}
+.HomeButton:hover {
+    background-color: grey;
+    background-image:url(Home2.png);
+
+}
+.Projects {
+    background-image:url(Projects.png);
+    background-size: 150px;
+    width: 150px;
+    height: 40px;
+    border: 2px white solid;
+    transition-duration: 0.4s;
+
+}
+.Projects:hover {
+    background-color: grey;
+    background-image:url(Projects2.png);
+
+}
+.Resume {
+    background-image:url(Resume.png);
+    background-size: 150px;
+    width: 150px;
+    height: 40px;
+    border: 2px white solid;
+    transition-duration: 0.4s;
+
+}
+.Resume:hover {
+    background-color: grey;
+    background-image:url(Resume2.png);
+
+}
+.Contact {
+    background-image:url(Contact.png);
+    background-size: 150px;
+    width: 150px;
+    height: 40px;
+    border: 2px white solid;
+    transition-duration: 0.4s;
+
+}
+.Contact:hover {
+    background-color: grey;
+    background-image:url(Contact2.png);
+
+}
+
+h1 {
+    font-family: 'Catamaran', sans-serif;
+    text-align: center;
+    font-size: 60px;
+}
+.BioSection, .ProjectsSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column; 
+    background-color: #F0F0F0;
+    padding: 50px;
+    min-height: 100vh;
+    font-family: 'Catamaran', sans-serif;
+
+}
+.Adobe{
+    color: white;
+
+}
+
+.AboutMe, .Project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: row; 
+    width:100%;
+    font-family: 'Catamaran', sans-serif;
+}
+.Title {
+    height:400px;
+}
+.Dog{
+    width:100px;
+}
+
+.Footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column; 
+    background-color: #F0F0F0;
+    padding: 50px;
+    height:30px;
+    font-family: 'Catamaran', sans-serif;
+}
+.ProjectsSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column; 
+    background-color: grey;
+    padding: 50px;
+    height:30px;
+    color: white;
+}
+
+  
+
+  
